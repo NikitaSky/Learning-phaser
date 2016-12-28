@@ -6,13 +6,15 @@
   "author": "Richard Davey <rdavey@gmail.com> (http://www.photonstorm.com)",
   "logo": "https://raw.github.com/photonstorm/phaser/master/phaser-logo-small.png",
   "homepage": "http://phaser.io",
-  "bugs": "https://github.com/photonstorm/phaser/issues",
+  "bugs": {
+    "url": "https://github.com/photonstorm/phaser/issues"
+  },
   "license": "MIT",
   "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
   "main": "./build/phaser.js",
   "repository": {
     "type": "git",
-    "url": "https://photonstorm@github.com/photonstorm/phaser.git"
+    "url": "git+https://photonstorm@github.com/photonstorm/phaser.git"
   },
   "scripts": {
     "test": "NODE_ENV=test grunt jshint"
@@ -55,5 +57,9 @@
       "typescript/phaser.comments.d.ts",
       "typescript/pixi.comments.d.ts"
     ]
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {}
 }
